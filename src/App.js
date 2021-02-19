@@ -1,11 +1,11 @@
 import { Route } from "react-router-dom";
-import Collection from "./collection";
+import Products from "./products";
 import Product from "./product";
 
 function App() {
   return (
     <>
-      <Route path="/" exact component={Collection} />
+      <Route path="/" exact component={Products} />
       <Route path="/product/:productId" component={Product} />
     </>
   );
